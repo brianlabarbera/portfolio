@@ -8,10 +8,11 @@ import KotlinOriginal from 'devicons-react/lib/icons/KotlinOriginal';
 import GradleOriginal from 'devicons-react/lib/icons/GradleOriginal';
 import AndroidstudioOriginal from 'devicons-react/lib/icons/AndroidstudioOriginal';
 import MysqlOriginal from 'devicons-react/lib/icons/MysqlOriginal';
-import PostgresqlOriginal from 'devicons-react/lib/icons/PostgresqlOriginal';
 import GitOriginal from 'devicons-react/lib/icons/GitOriginal';
 import AmazonwebservicesOriginalWordmark from 'devicons-react/lib/icons/AmazonwebservicesOriginalWordmark';
 import Fade from './Fade';
+import aiLogo from '../assets/AI.svg';
+import siemensLogo from '../assets/siemens.svg';
 
 const TechStack = () => {
     return (
@@ -67,7 +68,7 @@ const TechStack = () => {
             <div className="flex flex-wrap justify-center items-center gap-5">
               <IconWithFade icon={<GitOriginal size={40} />} name="Git" delay={0.1} />
               <IconWithFade icon={<AmazonwebservicesOriginalWordmark size={40} />} name="AWS" delay={0.2} />
-              <IconWithFade icon={<img src="/portfolio/AI.svg" width="35" height="0" className="object-contain"/>} name="AI (LLMs)" delay={0.1}/>              
+              <IconWithFade icon={<img src={aiLogo} alt="AI" width="40" height="40" className="object-contain"/>} name="AI (LLMs)" delay={0.3}/>              
             </div>
           </section>
         </Fade>
@@ -76,11 +77,10 @@ const TechStack = () => {
           <section className="mb-6">
             <h3 className="text-xl font-bold text-white mb-3 text-center">BUILDING AUTOMATION</h3>
             <div className="flex flex-wrap justify-center items-center gap-5">
-              <IconWithFade icon={<img src="/portfolio/siemens.svg" width="100" height="0" className="object-contain"/>} name="Desigo Optic + ABT Site" delay={0.1}/>
+              <IconWithFade icon={<img src={siemensLogo} alt="Siemens" width="85" height="40" className="object-contain"/>} name="Desigo Optic + ABT Site" delay={0.1}/>
             </div>
           </section>
         </Fade>
-         
       </div>
     )
 }
