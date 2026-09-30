@@ -14,13 +14,13 @@ const Home = () => {
         
         <Fade direction="down" delay={0.6}>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4">
-            DEVELOPER
+            ENGINEER
           </h2>
         </Fade>
         
         <Fade delay={0.9}>
           <p className="text-base md:text-lg mb-4 max-w-xl mx-auto">
-            Hi! I'm <span className="font-bold">Brian</span>. A creative Software Developer with 6+ months of professional experience in building high-performance and responsive applications.
+            Hi! I'm <span className="font-bold">Brian</span>. A creative Software Engineer with 1.5 years of professional experience in building high-performance and responsive applications.
           </p>
         </Fade>
         

@@ -57,7 +57,6 @@ const TechStack = () => {
             <h3 className="text-xl font-bold text-white mb-3 text-center">DATABASE</h3>
             <div className="flex flex-wrap justify-center items-center gap-5">
               <IconWithFade icon={<MysqlOriginal size={40} />} name="MySQL" delay={0.1} />
-              <IconWithFade icon={<PostgresqlOriginal size={40} />} name="PostgreSQL" delay={0.2} />
             </div>
           </section>
         </Fade>
@@ -68,9 +67,20 @@ const TechStack = () => {
             <div className="flex flex-wrap justify-center items-center gap-5">
               <IconWithFade icon={<GitOriginal size={40} />} name="Git" delay={0.1} />
               <IconWithFade icon={<AmazonwebservicesOriginalWordmark size={40} />} name="AWS" delay={0.2} />
+              <IconWithFade icon={<img src="/portfolio/AI.svg" width="35" height="0" className="object-contain"/>} name="AI (LLMs)" delay={0.1}/>              
             </div>
           </section>
         </Fade>
+
+        <Fade direction="up" delay={1.4}>
+          <section className="mb-6">
+            <h3 className="text-xl font-bold text-white mb-3 text-center">BUILDING AUTOMATION</h3>
+            <div className="flex flex-wrap justify-center items-center gap-5">
+              <IconWithFade icon={<img src="/portfolio/siemens.svg" width="100" height="0" className="object-contain"/>} name="Desigo Optic + ABT Site" delay={0.1}/>
+            </div>
+          </section>
+        </Fade>
+         
       </div>
     )
 }

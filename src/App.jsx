@@ -132,7 +132,7 @@ const App = () => {
       </div>
       
       <footer className="absolute bottom-0 left-0 w-full bg-#36454F text-white text-center font-bold py-4 z-20">
-        © 2025 Brian LaBarbera
+        © 2026 Brian LaBarbera
       </footer>
     </div>
   )

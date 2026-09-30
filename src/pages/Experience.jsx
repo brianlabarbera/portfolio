@@ -3,17 +3,17 @@ import Fade from '../components/Fade'
 
 const experiences = [
  {
+    company: "Energy Control Service, Inc.",
+    role: "Software Engineer",
+    duration: "Apr 2025 - Present",
+ },
+ {
     company: "Art Beyond Sight",
     role: "Software Developer Intern",
     duration: "Jul 2024 - Aug 2024",
  },
  {
-    company: "Serena's Catering Hall",
-    role: "Software Developer Intern",
-    duration: "Apr 2024 - Jun 2024",
- },
- {
-    company: "Trust Fund Registry",
+    company: "Trust Fund Registry™",
     role: "Software Developer Intern",
     duration: "Jul 2023 - Aug 2023",
  }
